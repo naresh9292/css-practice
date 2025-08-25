@@ -1,0 +1,425 @@
+/* comments in css */
+.zero h1 {
+    color: blue;
+    background-color: red;
+    border: 2px solid dodgerblue;
+}
+
+.zero p {
+    color: white;
+    background-color: rgb(255, 99, 71);
+}
+.zero h2 {
+    background-color: #ff6347;
+}
+
+.one {
+    height: 300px;
+    width: 100%;
+    background-image: url("box6_image.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.two {
+    border-style: solid;
+    border-width: 5px 20px;
+    border-color: red green blue yellow;
+    margin: 100px 50px 50px 100px;
+}
+
+.three {
+    width: 300px;
+    padding: 25px;
+    border: 1px solid red;
+}
+
+.three2 {
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+.four {
+    border: 1px solid black;
+    outline: 10px solid green;
+    outline-offset: 15px;
+}
+
+.five {
+    text-decoration-line: overline underline line-through;
+    text-decoration-color: green;
+}
+
+.six {
+    text-transform: uppercase;
+    text-indent: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.seven {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.s1 {
+    font-weight: normal;
+}
+.s2 {
+    font-weight: lighter;
+}
+.s3 {
+    font-weight: bold;
+}
+.s4 {
+    font-weight: 900;
+    font-variant: small-caps;
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+    background-color: #ff6347;
+}
+
+a:visited {
+    color: green;
+    text-decoration: none;
+    background-color: aqua;
+}
+
+a:hover {
+    color: pink;
+    text-decoration: underline;
+    background-color: blueviolet;
+}
+
+a:active {
+    color: blue;
+    text-decoration: underline;
+    background-color: yellow;
+}
+
+ a.nine2:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+ a.nine2:hover, a:active {
+    background-color: red;
+}
+
+.a {
+    list-style-type: disc;
+}
+
+.b {
+    list-style-type: circle;
+}
+
+.c {
+    list-style-type: square;
+}
+
+.d {
+    list-style-type: upper-roman;
+}
+
+.e {
+    list-style-type: lower-roman;
+}
+
+.f {
+    list-style-type: lower-alpha;
+}
+
+.g {
+    list-style-type: decimal;
+}
+
+img.ten1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.ten2 {
+    position: relative;
+}
+
+.ten21 {
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+}
+
+.ten22 {
+    position: absolute;
+    z-index: 2;
+    background: aqua;
+    height: 100px;
+    width: 35%;
+    top: -15px;
+    left: 270px;
+}
+
+.ten23 {
+    position: absolute;
+    z-index: 3;
+    background: red;
+    height: 60px;
+    width: 70%;
+    top: 50px;
+    left: 50px;
+}
+
+.ten31 {
+    background: green;
+    color: white;
+    padding: 15px;
+    height: 100px;
+    width: 80%;
+    overflow: scroll;
+    border: 1px solid black;
+}
+
+.ten32 {
+    background: green;
+    color: yellow;
+    padding: 15px;
+    height: 100px;
+    width: 80%;
+    overflow: visible;
+    border: 1px solid black;
+}
+
+.ten33 {
+    background: green;
+    color: yellow;
+    padding: 15px;
+    height: 100px;
+    width: 80%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.ten41 {
+    float: right;
+    margin-left: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.ten42 {
+    float: left;
+    margin-right: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.ten43 {
+    float: none;
+    width: 200px;
+    height: 200px;
+}
+
+.ten55 {
+    float: left;
+    padding: 35px;
+}
+
+.ten50 {
+    background: red;
+}
+
+.ten51 {
+    background: yellow;
+}
+
+.ten52 {
+    background: green;
+}
+
+.ten60 {
+    float: left;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.ten61 {
+    padding: 10px;
+    border: 3px solid red;
+}
+
+.ten62 {
+    float: left;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.ten63 {
+    padding: 10px;
+    border: 3px solid red;
+    clear: left;
+}
+
+.ten70 {
+    border: 3px solid green;
+    padding: 5px;
+}
+
+.ten71 {
+    float: right;
+}
+
+.clearfix {
+    border: 3px solid green;
+    padding: 5px;
+    overflow: auto;
+}
+
+.ten73 {
+    float: right;
+}
+
+.clearfix1 {
+    border: 3px solid green;
+    padding: 5px;
+}
+
+.clearfix1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.ten73 {
+    float: right;
+}
+
+.ten81 {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.clearfix2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.ten82 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.clearfix3::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.ten83 {
+    float: left;
+    width: 50%;
+    padding: 50px;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+.clearfix4::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: dodgerblue;
+}
+
+.ten84 {
+    background-color: #f1f1f1;
+    width: 50%;
+    text-align: center;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+#one {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.ten85 {
+    float: left;
+}
+
+.ten85 a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #333;
+}
+
+.ten85 a:hover {
+    background-color: #111;
+}
+
+ a.ten90:hover {
+    color: #ff0000;
+    font-size: 55px;
+}
+
+.ten92 {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+
+.ten91:hover p {
+    display: block;
+}
+
+#three {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+.ten93 a {
+     display: block;
+     color: #000;
+     padding: 8px 16px;
+     text-decoration: none;
+}
+
+.ten93 a:hover {
+    background-color: #555;
+    color: white;
+}
+
+li a.active {
+    background-color: #04aa6d;
+}
